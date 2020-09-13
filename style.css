@@ -1,3 +1,13 @@
+* {
+    box-sizing:border-box;
+}
+*:focus {
+    outline:none;
+}
+.body {
+    background-color: #000900;
+    user-select: select none;
+}
 .game {
     position: fixed;
     display: flex;
@@ -39,5 +49,22 @@
     margin-top:10px;
     padding:0;
     border:0;
+    width:124px;
+    max-width: 363px;
+    height: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
     background-image: url("./images/button-start.png");
 }
+.start-screen__button:hover {
+    background-image:url("./images/button-start-hover.png");
+}
+.start-screen__button--is-settings {
+    background-image:url("./images/button-settings.png");
+}
+.start-screen__button--is-settings:hover {
+    background-image:url("./images/button-settings-hover.png");
+}
+
