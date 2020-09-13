@@ -1,0 +1,2 @@
+# Diamonds
+Javascript game
